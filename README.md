@@ -16,10 +16,10 @@
 # วิธีการติดตั้งโปรเจคสำหรับการพัฒนา
 - clone repo นี้
 - รันคำสั่งตามนี้ 
-composer install
-npm install
-cp .env.example .env
-php artisan key:generate
+    - composer install
+    - npm install
+    - cp .env.example .env
+    - php artisan key:generate
 
 # เงื่อนไขสำหรับผู้พัฒนาและผู้ติดตั้งระบบที่ต้องทราบ
 - database ชื่อ FoodOrderingService มี schema ชื่อ data เป็น schema หลักของตาราง
